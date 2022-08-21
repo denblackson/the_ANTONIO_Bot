@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32811.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "the_ANTONIO_Bot", "the_ANTONIO_Bot\the_ANTONIO_Bot.csproj", "{BD4BE30E-16BA-416A-BA3B-3629AA7D8A6B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD4BE30E-16BA-416A-BA3B-3629AA7D8A6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD4BE30E-16BA-416A-BA3B-3629AA7D8A6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD4BE30E-16BA-416A-BA3B-3629AA7D8A6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD4BE30E-16BA-416A-BA3B-3629AA7D8A6B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CF092DF5-33C3-422E-B1BF-C646FDF9A99C}
+	EndGlobalSection
+EndGlobal
