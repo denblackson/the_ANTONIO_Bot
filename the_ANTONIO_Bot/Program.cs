@@ -17,8 +17,9 @@ namespace MyTelegram.Bot
                 AllowedUpdates = { }
             };
 
-
-            var botClient = new TelegramBotClient("5733089302:AAH9YPC_Ts6czskJa6pHHc-ukbtd2CBAC6s"); // конструктор бота
+            //5733089302:AAH9YPC_Ts6czskJa6pHHc-ukbtd2CBAC6s    ANTONIO
+            //var botClient = new TelegramBotClient("5733089302:AAH9YPC_Ts6czskJa6pHHc-ukbtd2CBAC6s"); // конструктор бота
+           var botClient = new TelegramBotClient("5733089302:AAH9YPC_Ts6czskJa6pHHc-ukbtd2CBAC6s"); // конструктор бота
             botClient.StartReceiving(HandleUpdatesAsync, HandleErrorAsync, receiverOptions, cancellationToken: cts.Token); // компонуєм і починаєм отримувати обнови з ТГ
             var me = botClient.GetMeAsync().Result;
             Console.WriteLine($"Начал прослушку. User {me.Id} and My name is {me.FirstName}");
